@@ -15,7 +15,7 @@
         
         var b = $(window).scrollTop();
         
-        if( b > 72 ){       
+        if( b >= 0 ){       
             $(".navbar").addClass("scroll");
         } else {
             $(".navbar").removeClass("scroll");
